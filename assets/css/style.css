@@ -1,0 +1,49 @@
+body{
+    background: #42C6E6;
+    background: linear-gradient(to right #42C6E6, #1F67BB);
+}
+
+.container{
+    border-radius: 5px;
+    background-color: #F7F7F7;
+    width: 12rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+}
+
+.card{
+    text-align: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: center;
+}
+
+input{
+    border: none;
+    background-color: #e2ebdf;
+    padding: 15px 5px;
+    outline: none;
+}
+
+button{
+    background-color: #2AA1BF;
+    color: #F7F7F7;
+    padding: 15px;
+    border: none;
+}
+
+.form__info{
+    font-size: 12px;
+}
+
+.form__sesion{
+    text-decoration: none;
+}
